@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #111827;
+}
+
+.encabezado {
+  background-color: #ffffff;
+  padding: 1.2rem 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.encabezado nav a {
+  color: #475569;
+  text-decoration: none;
+  margin-left: 1.8rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.encabezado nav a:hover {
+  color: #2563eb;
+}
+
+.content-ini {
+  background-color: #111827;
+  color: #ffffff;
+  text-align: center;
+  padding: 6rem 1rem 7rem 1rem;
+}
+
+.content-ini h1 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content-ini p {
+  color: #9ca3af;
+  max-width: 650px;
+  margin: 0 auto 2.5rem auto;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.boton-ini {
+  background-color: #2563eb;
+  color: #ffffff;
+  padding: 0.8rem 1.8rem;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.95rem;
+  transition: background-color 0.3s;
+}
+
+.boton-ini:hover {
+  background-color: #1d4ed8;
+}
